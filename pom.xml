@@ -130,14 +130,6 @@
 					<argLine>-Djava.library.path=${basedir}/natives</argLine>
 				</configuration>
 			</plugin>
-			<plugin>
-				<groupId>org.openjfx</groupId>
-				<artifactId>javafx-maven-plugin</artifactId>
-				<version>0.0.1</version>
-				<configuration>
-					<mainClass>HelloFX</mainClass>
-				</configuration>
-			</plugin>
 		</plugins>
 	</build>
 </project>
